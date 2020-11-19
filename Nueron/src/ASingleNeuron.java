@@ -28,4 +28,12 @@ public class ASingleNeuron {
         }
         System.out.println(result + 2);
     }
+
+    public static double singleNeuron(double[] weights, double[] inputs, double bias){
+        double result = 0;
+        for(int i = 0; i <  weights.length-1; i++)
+            result += (weights[i] * inputs[i]);
+        return result;
+        }
+
 }
