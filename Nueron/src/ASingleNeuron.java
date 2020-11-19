@@ -1,6 +1,10 @@
+//NAME: Burmau Garba
+//INSPIRED BY AUTHORS HARRISON KINGSLEY & DANIEL kUKIELA
+//BOOK: NEURAL NETWORK FROM SCRATCH
+//DATE: 18. NOV. 2020
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Consumer;
 
 public class ASingleNeuron {
 
