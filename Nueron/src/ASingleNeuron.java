@@ -33,7 +33,7 @@ public class ASingleNeuron {
         double result = 0;
         for(int i = 0; i <  weights.length-1; i++)
             result += (weights[i] * inputs[i]);
-        return result;
+        return result + bias;
         }
 
 }
